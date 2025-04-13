@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Taskify - Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Taskify - Task Manager</h1>
+
+  <div class="add-task-form">
+    <input type="text" id="taskInput" placeholder="Enter a new task" />
+    <button onclick="addTask()">Add Task</button>
+  </div>
+
+  <div class="task-board">
+    <div class="column" id="todo" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <h2>To Do</h2>
+    </div>
+    <div class="column" id="inProgress" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <h2>In Progress</h2>
+    </div>
+    <div class="column" id="done" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <h2>Done</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
