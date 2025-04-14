@@ -3,7 +3,8 @@ let taskId = 0;
     function addTask() {
       const taskInput = document.getElementById('taskInput');
       const taskText = taskInput.value.trim();
-      if (taskText === '') return;
+      if (taskText === '') 
+        return;
 
       const task = document.createElement('div');
       task.className = 'task';

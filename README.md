@@ -45,10 +45,6 @@ Taskify/
 2. Open `index.html` in your preferred web browser
 3. Start managing your tasks!
 
-## License
-
-This project is open source and available under the MIT License.
-
 ## Contributing
 
 Contributions are welcome! Feel free to submit issues and pull requests. 
